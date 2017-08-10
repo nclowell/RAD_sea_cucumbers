@@ -100,10 +100,7 @@ plt.savefig("clust_eval_plots/prop_hom_wosingletons" + datestr + ".png")
 plt.close()
 
 # proportion heterozygous loci
-props_het = []
-for i in [(y-x)/y for x, y in zip(pi_0, tot_filt_loci)]:
-    props_het.append(1-i)
-plt.plot(clusts,props_het)
+plt.plot(clusts,[(y-x)/y for x, y in zip(pi_0, tot_filt_loci)])
 plt.title("Proportion of heterozygous loci")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("(total filtered loci - pi_0)/total filtered loci")
