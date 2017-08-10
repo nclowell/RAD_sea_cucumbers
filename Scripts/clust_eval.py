@@ -49,8 +49,6 @@ datestr = ""
 if args.date != None:
     datestr += "_" + args.date
 
-
-
 # initiate lists to store values of different metrics
 pi_0 = []
 var_0 = []
@@ -76,6 +74,7 @@ for assembly in assemblies:
             index = stats_file_lines.index(line)
             pi_0.append(float(stats_file_lines[index+4].strip().split()[3]))
             var_0.append(float(stats_file_lines[index+4].strip().split()[1]))
+    stats_file.close()
 
 ### MAKE PLOTS
 
