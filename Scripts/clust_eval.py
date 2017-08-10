@@ -22,7 +22,7 @@ parser = argparse.ArgumentParser(description="Read in step 7 stats files, plot c
 parser.add_argument("-d", "--dir", help="path to ipyrad directory", type=str, required = True)
 parser.add_argument("-n", "--names", help="text file of assembly names, each on own line, stored in ipyrad dir", type=str, required = True)
 parser.add_argument("-c", "--clusts", help="text file of clustering similarity parameter values, each on own line, and matching order of assembly names text file, stored in ipyrad dir", type=str, required = True)
-parser.add_argument("-x", "--date", help="8 digit date", required = False)
+parser.add_argument("-x", "--date", help="Date in YYYYMMDD format for naming plots, if desired", required = False)
 args = parser.parse_args()
 
 # change working directory to ipyrad directory
