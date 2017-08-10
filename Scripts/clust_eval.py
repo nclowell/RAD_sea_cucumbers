@@ -93,7 +93,7 @@ plt.close()
 
 # proportion homozygous loci without singletons
 plt.plot(clusts,[x/y for x, y in zip(pi_0, ret_loci_after_minsample)])
-plt.title("Proportion of loci homozygous without singletons")
+plt.title("Proportion of homozygous loci without singletons")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("pi = 0 / retained loci after minimum sample")
 plt.savefig("clust_eval_plots/prop_hom_wosingletons" + datestr + ".png")
