@@ -22,6 +22,7 @@ parser = argparse.ArgumentParser(description="Read in step 7 stats files, plot c
 parser.add_argument("-d", "--dir", help="path to ipyrad directory", type=str, required = True)
 parser.add_argument("-n", "--names", help="text file of assembly names, each on own line, stored in ipyrad dir", type=str, required = True)
 parser.add_argument("-c", "--clusts", help="text file of clustering similarity parameter values, each on own line, and matching order of assembly names text file, stored in ipyrad dir", type=str, required = True)
+parser.add_argument("-x", "--date", help="8 digit date", required = False)
 args = parser.parse_args()
 
 # change working directory to ipyrad directory
@@ -42,6 +43,13 @@ for line in clusts_file:
     clust = line.strip()
     if clust != "":
         clusts.append(float(clust))
+
+# add date if provided for plot names
+datestr = ""
+if args.date != None:
+    datestr += "_" + args.date
+
+
 
 # initiate lists to store values of different metrics
 pi_0 = []
@@ -80,7 +88,7 @@ plt.plot(clusts,[x/y for x, y in zip(var_0, tot_filt_loci)])
 plt.title("Proportion of homozygous loci including singletons")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("var = 0 / total filtered loci")
-plt.savefig("clust_eval_plots/prop_hom_wsingletons.png")
+plt.savefig("clust_eval_plots/prop_hom_wsingletons" + datestr + ".png")
 plt.close()
 
 # proportion homozygous loci without singletons
@@ -88,7 +96,7 @@ plt.plot(clusts,[x/y for x, y in zip(pi_0, ret_loci_after_minsample)])
 plt.title("Proportion of loci homozygous without singletons")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("pi = 0 / retained loci after minimum sample")
-plt.savefig("clust_eval_plots/prop_hom_wosingletons.png")
+plt.savefig("clust_eval_plots/prop_hom_wosingletons" + datestr + ".png")
 plt.close()
 
 # proportion heterozygous loci
@@ -99,7 +107,7 @@ plt.plot(clusts,props_het)
 plt.title("Proportion of heterozygous loci")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("(total filtered loci - pi_0)/total filtered loci")
-plt.savefig("clust_eval_plots/prop_het.png")
+plt.savefig("clust_eval_plots/prop_het" + datestr + ".png")
 plt.close()
 
 # proportion filtered out for polyploidy (max alleles = 2)
@@ -107,7 +115,7 @@ plt.plot(clusts,[x/y for x, y in zip(applied_order_MA, ret_loci_after_minsample)
 plt.title("Proportion loci filtered out for polyploidy")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("Applied_order filtered max alleles / retained_loci after min sample")
-plt.savefig("clust_eval_plots/prop_lost_polyploids.png")
+plt.savefig("clust_eval_plots/prop_lost_polyploids" + datestr + ".png")
 plt.close()
 
 # proportion loci lost to remove duplicates (potentially over clustering)
@@ -115,7 +123,7 @@ plt.plot(clusts,[x/y for x, y in zip(total_filters_RD, tot_prefilt_loci)])
 plt.title("Proportion of loci lost to remove_duplicates")
 plt.xlabel("Clustering similarity %")
 plt.ylabel("total_filters remove duplicates / total prefiltered loci")
-plt.savefig("clust_eval_plots/prop_lost_remdups.png")
+plt.savefig("clust_eval_plots/prop_lost_remdups" + datestr + ".png")
 plt.close()
 
 # 20170810 Natalie Lowell
