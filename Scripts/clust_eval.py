@@ -59,7 +59,7 @@ tot_prefilt_loci = []
 ret_loci_after_minsample = []
 applied_order_MA = []
 
-# iterate through assembles, extract information from stats files, and store in lists
+# iterate through assemblies, extract information from stats files, and store in lists
 for assembly in assemblies:
     stats_file = open(assembly + "_outfiles/" + assembly + "_stats.txt", "r")
     stats_file_lines = stats_file.readlines()
