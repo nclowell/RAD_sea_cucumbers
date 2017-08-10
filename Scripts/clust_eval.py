@@ -6,6 +6,7 @@
 # - text file with all assembly names, each on own line
 # - text file with all clustering param values, each on
 #   own line and matching order of assembly names text file
+# - optional YYYYMMDD date for naming plot files
 # OUTPUTS: plots comparing many output metrics to help evaluate
 # the effect of clustering similarity
 ######################################################
