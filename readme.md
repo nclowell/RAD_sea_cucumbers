@@ -8,6 +8,10 @@ A research team led by Dan Cheney of the Pacific Shellfish Institute is developi
 
 This research is funded by NOAA Saltonstall-Kennedy program grant number 2004246. A one-page project description can be found [here](http://www.pacshell.org/pdf/SK%20Sea%20Cuc.pdf).
 
+#### Overview of methods
+
+The research team collected tissue samples from seven populations, ranging from Alaska to California. I extracted, quantified and verified quality of DNA, and then prepared RAD libraries follwing to [Etter et al 2011](https://link.springer.com/protocol/10.1007/978-1-61779-228-1_9). I clustered loci and genotyped individuals using the [ipyrad](http://ipyrad.readthedocs.io/ethos.html) pipeline, and calculated population genetic statistics using ``hierfstat``.
+
 #### This repo
 
 This repo will be used to store my scripts, notebooks, and analyses as I advance on the project. Here are some quick links to the main directories in this repo:
