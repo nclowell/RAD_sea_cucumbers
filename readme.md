@@ -12,7 +12,7 @@ This research was funded by NOAA Saltonstall-Kennedy program grant number 200424
 #### Project Goals
 
 **[1]** Quantify and characterize patterns in population structure
-**[2]** Identify putatively adaptive loci and evaluate whether patterns of population structure differ between putatively neutral and adaptive data sets
+<br>**[2]** Identify putatively adaptive loci and evaluate whether patterns of population structure differ between putatively neutral and adaptive data sets
 
 #### Overview of methods
 
