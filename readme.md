@@ -1,6 +1,6 @@
 ## Sea Cucumber Population Structure Project
 
-![img](Imgs_for_Notebooks/cukepic.jpeg)
+![img](https://github.com/nclowell/SeaCukes/blob/master/Imgs_for_Notebooks/cukepic.jpg?raw=true)
 Photo credit: Pacific Shellfish Institute
 
 
