@@ -16,7 +16,7 @@ This research was funded by NOAA Saltonstall-Kennedy program grant number 200424
 
 #### Overview of methods
 
-I extracted, quantified and verified quality of DNA from 9 sites spanning from Alaska to Oregon, and then prepared single-digest RAD libraries using *sbfI* follwing [Etter et al 2011](https://link.springer.com/protocol/10.1007/978-1-61779-228-1_9). DNA was sequenced to 150bp at BGI.
+I extracted, quantified and verified quality of DNA from 9 sites spanning from Alaska to Oregon, and then prepared single-digest RAD libraries using *sbfI* follwing [Etter et al 2011](https://link.springer.com/protocol/10.1007/978-1-61779-228-1_9). DNA was sequenced to 150bp at BGI. You can find the library prep protocols in [1_library_prep](https://github.com/nclowell/SeaCukes/tree/master/1_library_prep).
 
 I clustered loci and genotyped individuals using the [*dDocent*](https://www.ddocent.com/) pipeline, using the reference genome of a closely related species, *Parastichopus parvimensis*.
 
@@ -40,5 +40,10 @@ Loci were classified as putatively adaptive if identified using at least one of 
 
 Once putatively adaptive SNPs were identified, they were used to distinguish a putatively neutral data set (by excluding these SNPs) and a putatively adaptive data set (the remaining SNPs). These were used to generate hypotheses about the roles of neutral versus adaptive forces in driving population differentiation.
 
+#### This repository
+
+This repository contains the protocols, scripts, and notebooks that I used in this project. Here are the quick links:
+
+1. [1_library_prep](https://github.com/nclowell/SeaCukes/tree/master/1_library_prep)
 
 
