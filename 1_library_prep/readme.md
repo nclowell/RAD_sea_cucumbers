@@ -1,3 +1,7 @@
 #### Library prep
 
-This directory includes my RAD library prep protocol, divided into 4 parts. I also attached a linked workbook, which I used to calculate quantities of reagents depending on how many indivdiuals were included in the library.
+<br>This directory includes my RAD library prep protocol, divided into 4 parts. I also attached a linked workbook, which I used to calculate quantities of reagents depending on how many indivdiuals were included in the library.
+
+<br>In short, we selected samples with high DNA quality for restriction site associated DNA (RAD) sequencing, and RAD libraries were prepared following the protocol of Etter et al. (2011) (Etter et al., 2011) . Briefly, DNA samples were barcoded with an individual six base identifier sequence attached to an Illumina P1 adapter. Samples were then pooled into sublibraries, containing approximately 12 individuals. Sublibraries were sheared using a Bioruptor sonicator and size selected using a MinElute Gel Extraction Kit. P2 adapters were ligated to DNA in sublibraries and amplified with PCR using 12-18 cycles. Finally, amplified sublibraries were combined into pools of approximately 72 individuals and sequenced to a length of 150 base pairs at the Beijing Genomics Institute and the University of Oregon Genomics and Cell Characterization Core Facility. Only forward reads were used for analysis.
+
+<br>Etter, P. D., Preston, J. L., Bassham, S., Cresko, W. A., & Johnson, E. A. (2011). Local de novo assembly of RAD paired-end contigs using short sequencing reads. PloS One, 6(4), e18561.
