@@ -32,7 +32,10 @@ Individuals were retained if they were successfully genotyped at at least 70% of
 
 We used [*genepop*](https://cran.r-project.org/web/packages/genepop/index.html) to calculate FST and run exact G tests at global and pairwise scales. We used *genepop* to calculate expected and observed heterozygosity as well, and used custom python scripts to calculate the proportion of polymorphic loci per site.
 
-We used principal component analysis and dicriminant analysis of principal components to investigate patterns of population differentiation, using the R package [*adegenet*](https://cran.r-project.org/web/packages/adegenet/index.html). We used [*ADMIXTURE*](https://gaworkshop.readthedocs.io/en/latest/contents/07_admixture/admixture.html) to conduct a clustering analysis and the R package [*poppr*](https://cran.r-project.org/web/packages/poppr/index.html) to summarize the partitioning of variance among different hierarchical groupings in AMOVAs. We tested for isolation by distance using a Mantel test in R.
+We used principal component analysis and dicriminant analysis of principal components to investigate patterns of population differentiation, using the R package [*adegenet*](https://cran.r-project.org/web/packages/adegenet/index.html). We used [*ADMIXTURE*](https://gaworkshop.readthedocs.io/en/latest/contents/07_admixture/admixture.html) to conduct a clustering analysis and the R package [*poppr*](https://cran.r-project.org/web/packages/poppr/index.html) to summarize the partitioning of variance among different hierarchical groupings in AMOVAs. You can see the scripts used for population structure analyses [here](https://github.com/nclowell/SeaCukes/tree/master/3_pop_structure_analyses).
+
+
+We tested for isolation by distance using a Mantel test in R.
 
 Loci were classified as putatively adaptive if identified using at least one of two approaches: FST outlier detection and gene-environment association. We used [*Bayescan*](http://cmpg.unibe.ch/software/BayeScan/) and the R package [*OutFLANK*](http://rstudio-pubs-static.s3.amazonaws.com/305384_9aee1c1046394fb9bd8e449453d72847.html) to detect FST outliers. We used [*bayenv2*](https://gcbias.org/bayenv/) and redundancy analysis to test for gene-environment association and identify SNPs putatively involved in local adaptation. We used [*blastx*](https://blast.ncbi.nlm.nih.gov/Blast.cgi?LINK_LOC=blasthome&PAGE_TYPE=BlastSearch&PROGRAM=blastx) and the [*UniProt Knowledge Base*](https://www.uniprot.org/help/uniprotkb) to identify potentially associated biological processes for putatively adaptive loci. 
 
@@ -44,5 +47,6 @@ This repository contains the protocols, scripts, and notebooks that I used in th
 
 1. [1_library_prep](https://github.com/nclowell/SeaCukes/tree/master/1_library_prep)
 2. [2_assembly_genotyping_and_filtering](https://github.com/nclowell/SeaCukes/tree/master/2_assembly_genotyping_and_filtering)
+3. [3_pop_structure_analyses](https://github.com/nclowell/SeaCukes/tree/master/3_pop_structure_analyses)
 
 
