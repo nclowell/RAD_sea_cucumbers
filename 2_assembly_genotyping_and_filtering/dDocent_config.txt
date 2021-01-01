@@ -1,0 +1,28 @@
+Number of Processors
+8
+Maximum Memory
+0
+Trimming
+no
+Assembly?
+no
+Type_of_Assembly
+
+Clustering_Similarity%
+
+Minimum within individual coverage level to include a read for assembly (K1)
+
+Minimum number of individuals a read must be present in to include for assembly (K2)
+
+Mapping_Reads?
+no
+Mapping_Match_Value
+
+Mapping_MisMatch_Value
+
+Mapping_GapOpen_Penalty
+
+Calling_SNPs?
+yes
+Email
+nclowell@uw.edu
