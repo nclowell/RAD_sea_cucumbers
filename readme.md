@@ -38,9 +38,6 @@ We also looked for evidence for selection. Loci were classified as putatively ad
 
 We investigated potential drivers of observed differentiation. We tested for isolation by distance using a Mantel test in R. We also compared patterns of differentiation between putatively neutral and putatively adaptive loci. 
 
-
-Once putatively adaptive SNPs were identified, they were used to distinguish a putatively neutral data set (by excluding these SNPs) and a putatively adaptive data set (the remaining SNPs). These were used to generate hypotheses about the roles of neutral versus adaptive forces in driving population differentiation.
-
 #### This repository
 
 This repository contains the protocols, scripts, and notebooks that I used in this project. Here are the quick links:
@@ -53,4 +50,5 @@ This repository contains the protocols, scripts, and notebooks that I used in th
 
 [4_detecting_adaptive_differentiation](https://github.com/nclowell/SeaCukes/tree/master/4_detecting_adaptive_differentiation)
 
+IN PROGRESS: directory for drivers of differentiation, added scripts and notebooks for blastx / uniprot
 
