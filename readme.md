@@ -45,8 +45,8 @@ Once putatively adaptive SNPs were identified, they were used to distinguish a p
 
 This repository contains the protocols, scripts, and notebooks that I used in this project. Here are the quick links:
 
-1. [1_library_prep](https://github.com/nclowell/SeaCukes/tree/master/1_library_prep)
-2. [2_assembly_genotyping_and_filtering](https://github.com/nclowell/SeaCukes/tree/master/2_assembly_genotyping_and_filtering)
-3. [3_pop_structure_analyses](https://github.com/nclowell/SeaCukes/tree/master/3_pop_structure_analyses)
+[1_library_prep](https://github.com/nclowell/SeaCukes/tree/master/1_library_prep)
+[2_assembly_genotyping_and_filtering](https://github.com/nclowell/SeaCukes/tree/master/2_assembly_genotyping_and_filtering)
+[3_pop_structure_analyses](https://github.com/nclowell/SeaCukes/tree/master/3_pop_structure_analyses)
 
 
