@@ -8,4 +8,4 @@ The second is gene environment association methods, for which we used [*bayenv2*
 
 Then, for bayenv2, I ran it using scaled environmental data, using default parameters (-k 100000) and the supplied script for running *bayenv2* per locus. Results were parsed using [this notebook](https://github.com/nclowell/SeaCukes/blob/master/4_detecting_adaptive_differentiation/parsing_bayenv2_results.ipynb).
 
-For redundancy analysis, I used the R package [*vegan*](https://cran.r-project.org/web/packages/vegan/index.html) and this script.
+For redundancy analysis, I used the R package [*vegan*](https://cran.r-project.org/web/packages/vegan/index.html) and [this script](https://github.com/nclowell/SeaCukes/blob/master/4_detecting_adaptive_differentiation/RDA.R). I ran regular RDAs and partial RDAs that conditioned spatial MEM variables, to account of neutral variation attributed to isolation-by-distance. I did so using multiple sets of predictors. For each set of predictors, I reduced them to few PCs. The sets of predictors were all variables, sea surface variables, bottom depth variables, and variables related to current velocity and temperature.
