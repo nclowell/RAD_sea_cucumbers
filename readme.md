@@ -50,5 +50,5 @@ This repository contains the protocols, scripts, and notebooks that I used in th
 
 [4_detecting_adaptive_differentiation](https://github.com/nclowell/SeaCukes/tree/master/4_detecting_adaptive_differentiation)
 
-coming soon: directory for drivers of differentiation, adding scripts and notebooks for blastx / uniprot
+[5_potential_drivers_of_differentiation](https://github.com/nclowell/SeaCukes/tree/master/5_potential_drivers_of_differentiation)
 
