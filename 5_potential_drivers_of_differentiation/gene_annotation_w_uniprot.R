@@ -3,17 +3,9 @@
 # Gene annotation
 # 20201218 NL
 
-# get complete list of putatively adaptive loci
-# - identified with FST outliers
-# - identified with BayEnv2
-# - identified with RDA
-
-# make into fasta, and blast against uniprot
-
-# for final df, have column (T/F) for whether this locus was detected
-# with these three methods and whether had BLAST results
-
-# provide some summary stats
+# This script uses the GO slim terms data base to pull biological processes for
+# putatively adaptive SNPs, and provides summary stats / answers to basic questions
+# related to putatively adaptive loci and gene annotations
 
 ########################################################################################
 ### set workding directory and name for naming output files
