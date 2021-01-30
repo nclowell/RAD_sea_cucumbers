@@ -38,6 +38,15 @@ We also looked for evidence for selection. Loci were classified as putatively ad
 
 We investigated potential drivers of observed differentiation. We tested for isolation by distance using a Mantel test in R. We also compared patterns of differentiation between putatively neutral and putatively adaptive loci. 
 
+#### Some results
+
+Data files and all results will be shared publicly here after publication. Below is a DAPC along with site map, to see general patterns of popuation differentiation. Some other results are shared within the readmes per directory of this repo.
+
+
+[dapc](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/Imgs_for_Notebooks/dapc_w_map.PNG?raw=true)
+
+
+
 #### This repository
 
 This repository contains the protocols, scripts, and notebooks that I used in this project. Here are the quick links:
@@ -50,5 +59,5 @@ This repository contains the protocols, scripts, and notebooks that I used in th
 
 [4_detecting_adaptive_differentiation](https://github.com/nclowell/SeaCukes/tree/master/4_detecting_adaptive_differentiation)
 
-coming soon: directory for drivers of differentiation, adding scripts and notebooks for blastx / uniprot
+[5_potential_drivers_of_differentiation](https://github.com/nclowell/SeaCukes/tree/master/5_potential_drivers_of_differentiation)
 
