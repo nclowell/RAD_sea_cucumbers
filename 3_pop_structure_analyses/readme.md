@@ -12,6 +12,6 @@ I used [this script](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/3
 
 #### Some population structure results
 
-Overall, detectable population structure almost every way we sliced it. Global Fst = 0.0068 and pairwise Fsts are presented in the table below. Asterisks denote signficant genic differentiation tests.
+Overall, I observed detectable population structure almost every way we sliced it. Global Fst = 0.0068 and pairwise Fsts are presented in the table below. Asterisks denote signficant genic differentiation tests.
 
 ![fst](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/imgs/pairwise_fst_table.PNG?raw=true)
