@@ -46,7 +46,6 @@ Data files and all results will be shared publicly here after publication. Below
 ![dapc](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/Imgs_for_Notebooks/dapc_w_map.PNG?raw=true)
 
 
-
 #### This repository
 
 This repository contains the protocols, scripts, and notebooks that I used in this project. Here are the quick links:
