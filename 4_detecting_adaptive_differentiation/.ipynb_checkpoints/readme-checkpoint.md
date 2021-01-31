@@ -12,8 +12,10 @@ For redundancy analysis, I used the R package [*vegan*](https://cran.r-project.o
 
 #### Some results
 
-I found evidence for adaptive differentiation using all methods, with significant overlap of SNPs among outlier methods and also among gene-environment association methods. The environmental predictors with the most correlated SNPs included salinity, temperature, nitrate, and pH. Two RDA models were significant, with predictor variables for the sea surface and for current velocity and temperature. Gene annotations were available for a small subset of putatively adaptive loci, and common biological processes associated with these included cell organization and biogenesis and signal transduction. A plot summarizing the detection of putatively adaptive loci using different methods is provided below, with A = ``OUTFlank``, B = ``BayeScan``, and C = ``BayEnv2``
+I found evidence for adaptive differentiation using all methods, with significant overlap of SNPs among outlier methods and also among gene-environment association methods. The environmental predictors with the most correlated SNPs included salinity, temperature, nitrate, and pH. Two RDA models were significant, with predictor variables for the sea surface and for current velocity and temperature. Gene annotations were available for a small subset of putatively adaptive loci, and common biological processes associated with these included cell organization and biogenesis and signal transduction. A plot summarizing the detection of putatively adaptive loci using different methods is provided below, with A = ``OUTFlank``, B = ``BayeScan``, and C = ``BayEnv2``. Below is a figure with two RDA biplots, along the first two axes of the significant models.
 
 ![putadapt](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/imgs/putadapt_sum.PNG?raw=true)
 
-![rda]()
+
+
+![rda](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/imgs/rda_biplots.PNG?raw=true)
