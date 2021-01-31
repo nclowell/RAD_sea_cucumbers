@@ -12,7 +12,7 @@ I found evidence for isolation by distance, with the majority of the correlation
 
 ![img](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/imgs/ibd.PNG?raw=true)
 
-Here's the table of predictor variables with the most correlated SNPs (Sc) from ``Bayenv2``, the number of SNPs with matching biological processes (Sp), and the processes by proprtion of total matches. Note that there were often multiple protein matches per SNP and multiple biological processes per protein in the database.
+Here's the table of predictor variables with the most correlated SNPs (Sc) from ``Bayenv2``, whether the predictor was measured at sea surface (S) or bottom depth (B), the number of SNPs with matching biological processes (Sp), and the processes by proprtion of total matches. Note that there were often multiple protein matches per SNP and multiple biological processes per protein in the database.
 
 ![img](https://github.com/nclowell/RAD_sea_cucumbers/blob/master/imgs/predictors_and_goslim.PNG?raw=true)
 
